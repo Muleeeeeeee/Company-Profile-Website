@@ -14,7 +14,7 @@ html {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, #0d6efd, #0dcaf0);
+  background: #212529;
   padding: 0.8rem 1rem;
 }
 
@@ -55,7 +55,7 @@ html {
   .nav-links {
     display: none !important;
     flex-direction: column;
-    background: linear-gradient(90deg, #0d6efd, #0dcaf0);
+    background: #212529;
     position: absolute;
     top: 60px;
     left: 0;
@@ -103,17 +103,19 @@ html {
   line-height: 1.6;
 }
 
-.hero .btn {
+.hero .btn { 
+  background: #212529;
   border-radius: 50px;
   padding: 12px 30px;
   font-weight: 600;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+  color: #fff;
 }
 
 .hero .btn:hover {
-  background: #0b5ed7;
+  background: #343A40;
   transform: translateY(-3px);
-  box-shadow: 0px 6px 18px rgba(13, 110, 253, 0.3);
+  box-shadow: 0px 6px 18px rgba(13, 109, 253, 0.122);
 }
 
 /* Fade Animations */
@@ -216,7 +218,7 @@ section {
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #0d6efd;
+  color: #212529;
 }
 
 .about h3 {
@@ -233,7 +235,7 @@ section {
 
 /* Tombol About */
 .btn-about {
-  background-color: #0d6efd;
+  background-color: #212529;
   color: #fff;
   padding: 12px 30px;
   font-size: 1rem;
@@ -244,9 +246,10 @@ section {
 }
 
 .btn-about:hover {
-  background: #0b5ed7;
+  background: #343A40; 
+  color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.3);
+  box-shadow: 0 6px 18px rgba(13, 109, 253, 0.107);
 }
 
 /* Our Team Section */
