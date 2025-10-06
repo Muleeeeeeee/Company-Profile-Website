@@ -274,7 +274,7 @@ section {
   width: 150px;
   height: 150px;
   object-fit: contain;
-  box-shadow: 0 6px 18px rgba(13, 109, 253, 0.332);
+  box-shadow: 0 6px 18px #212529;
 }
 
 .team-img:hover {
